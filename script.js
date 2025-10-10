@@ -25,7 +25,7 @@ yesBtn.addEventListener('click', () => {
   <div style="display:flex;flex-direction:column;align-items:center;justify-content:center;height:100vh;text-align:center;">
       <h1 style="color:#ff3366;font-size:2.5rem;">Yayyy!!! 💕</h1>
       <p style="font-size:1.5rem;color:#ff6699;">I knew you'd say yes 😍</p>
-      <img src="https://i.imgur.com/ptd5ZcD.png" style="width:150px;margin-top:20px;">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROXSk_d9ggCshB5iW03A4S1uDzSQy7jHQxgg&s" style="width:150px;margin-top:20px;">
       <audio autoplay loop>
         <source src="https://cdn.pixabay.com/download/audio/2022/03/15/audio_b6c51fa3b3.mp3?filename=romantic-ambient-112986.mp3" type="audio/mpeg">
       </audio>
