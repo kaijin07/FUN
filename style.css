@@ -1,4 +1,4 @@
-/* --- Reset & Basic Setup --- */
+
 * {
   margin: 0;
   padding: 0;
@@ -115,7 +115,7 @@ button {
   position: relative; /* Side by side */
 }
 
-/* --- Cute Image --- */
+
 .cute-img {
   width: 120px;
   margin-top: 20px;

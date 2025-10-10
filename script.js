@@ -1,4 +1,4 @@
-// --- Floating Hearts ---
+
 for (let i = 0; i < 15; i++) {
   let heart = document.createElement("div");
   heart.classList.add("heart");
@@ -8,18 +8,18 @@ for (let i = 0; i < 15; i++) {
   document.body.appendChild(heart);
 }
 
-// --- Button Logic ---
+
 const noBtn = document.getElementById('no');
 const yesBtn = document.getElementById('yes');
 
-// Make the "No" button run away but stay side by side initially
+
 noBtn.addEventListener('mouseover', () => {
   const x = Math.random() * 300 - 150;
   const y = Math.random() * 150 - 75;
   noBtn.style.transform = `translate(${x}px, ${y}px)`;
 });
 
-// Show message when "Yes" is clicked
+
 yesBtn.addEventListener('click', () => {
   document.body.innerHTML = `
   <div style="display:flex;flex-direction:column;align-items:center;justify-content:center;height:100vh;text-align:center;">
