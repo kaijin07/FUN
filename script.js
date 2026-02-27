@@ -14,8 +14,8 @@ const yesBtn = document.getElementById('yes');
 
 
 noBtn.addEventListener('mouseover', () => {
-  const x = Math.random() * 300 - 150;
-  const y = Math.random() * 150 - 75;
+  const x = Math.random() * 600 - 300;
+  const y = Math.random() * 400 - 200;
   noBtn.style.transform = `translate(${x}px, ${y}px)`;
 });
 
